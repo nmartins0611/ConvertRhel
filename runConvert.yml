@@ -1,7 +1,7 @@
 - name: Run setup tasks
   import_playbook: setup-convert2rhel.yml
 
-- hosts: all
+- hosts: community
   become: yes
   strategy: free
 
